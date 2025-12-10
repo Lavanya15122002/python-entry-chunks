@@ -47,7 +47,7 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           
           # 1. Stash changes
-          git add processed-chunk-1.json
+          git add processed-chunk-4.json
           git stash
           
           # 2. Retry Logic for Pulling
